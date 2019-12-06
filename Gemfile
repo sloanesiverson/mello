@@ -8,11 +8,11 @@ gem 'rails', '~> 5.2.2'
 # Use postgres as the database for Active Record
 gem 'pg', '1.1.4'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 #  Use devise and devise-jwt for authentication
-gem 'devise', '4.6.1'
+gem 'devise', '4.7.1'
 gem 'devise-jwt', '0.5.8'
 
 gem 'rails-static-router', '1.0.0'
