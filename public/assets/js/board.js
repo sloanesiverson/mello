@@ -228,6 +228,7 @@ function handleListCreate(event) {
   }).then(function(){
     init();
     MicroModal.close('create-list');
+    console.log
   });
 }
 
@@ -446,3 +447,5 @@ $editListSaveButton.on('click', handleListEdit);
 $editListDeleteButton.on('click', handleListDelete);
 $editCardSaveButton.on('click', handleCardSave);
 $editCardDeleteButton.on('click', handleCardDelete);
+$saveListButton.on('click', handleListCreate);
+$logoutButton.on('click', handleLogout);
