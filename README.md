@@ -13,4 +13,4 @@ Mello is a clone of Trello written with JavaScript, utilizing a pre-built back e
 * Multiple contributors can be applied to each board
 
 ## Screenshot:
-![](/images/mello.png)
+![](/app/images/mello.png)
